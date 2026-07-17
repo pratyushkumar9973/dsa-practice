@@ -9,8 +9,8 @@ Daily logic-building problems for Data Engineering interviews.
 | Topic | Status | Files | Link |
 |-------|--------|-------|------|
 | hashmap/ | 🟢 Active | 4 | [View](hashmap/) |
-| arrays/ | 🟢 Active | 1 | [View](arrays/) |
-| sorting/ | 🟢 New | 1 | [View](sorting/) |
+| arrays/ | 🟢 Active | 2 | [View](arrays/) |
+| sorting/ | 🟢 Active | 2 | [View](sorting/) |
 | strings/ | ⚪ Empty | 0 | — |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
@@ -27,10 +27,11 @@ Daily logic-building problems for Data Engineering interviews.
 | Topic | Solved |
 |-------|--------|
 | Hash Map | 4 |
-| Arrays / Two Pointers | 1 |
-| Sorting | 1 |
-| **Total** | **6** |
+| Arrays | 2 |
+| Sorting | 2 |
+| **Total** | **8** |
 
 ---
 
 ## File Naming Convention
+
