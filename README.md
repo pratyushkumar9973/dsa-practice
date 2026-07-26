@@ -1,16 +1,14 @@
 # DSA Practice
-
 Daily logic-building problems for Data Engineering interviews.
-
----
 
 ## Topics
 
 | Topic | Status | Files | Link |
 |-------|--------|-------|------|
-| hashmap/ | 🟢 Active | 4 | [View](hashmap/) |
+| hashmap/ | 🟢 Active | 4 | [View](arrays/hashmap/) |
 | arrays/ | 🟢 Active | 2 | [View](arrays/) |
-| sorting/ | 🟢 Active | 2 | [View](sorting/) |
+| sorting/ | 🟢 Active | 2 | [View](arrays/sorting/) |
+| searching/ | 🟢 Active | 1 | [View](arrays/searching/) |
 | strings/ | ⚪ Empty | 0 | — |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
@@ -20,8 +18,6 @@ Daily logic-building problems for Data Engineering interviews.
 | dynamic-programming/ | ⚪ Empty | 0 | — |
 | backtracking/ | ⚪ Empty | 0 | — |
 
----
-
 ## Progress
 
 | Topic | Solved |
@@ -29,9 +25,9 @@ Daily logic-building problems for Data Engineering interviews.
 | Hash Map | 4 |
 | Arrays | 2 |
 | Sorting | 2 |
-| **Total** | **8** |
-
----
+| Searching | 1 |
+| **Total** | **9** |
 
 ## File Naming Convention
+`XX_problem-name.py`
 
