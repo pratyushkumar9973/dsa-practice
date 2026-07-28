@@ -8,7 +8,7 @@ Daily logic-building problems for Data Engineering interviews.
 | hashmap/ | 🟢 Active | 8 | (arrays/hashmap/) |
 | arrays/ | 🟢 Active | 2 | (arrays/) |
 | sorting/ | 🟢 Active | 5 | [(arrays/sorting/) |
-| searching/ | 🟢 Active | 1 | [(arrays/searching/) |
+| searching/ | 🟢 Active | 2 | [(arrays/searching/) |
 | strings/ | ⚪ Empty | 0 | — |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
