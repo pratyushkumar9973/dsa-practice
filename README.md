@@ -5,10 +5,10 @@ Daily logic-building problems for Data Engineering interviews.
 
 | Topic | Status | Files | Link |
 |-------|--------|-------|------|
-| hashmap/ | 🟢 Active | 8 | (arrays/hashmap/) |
-| arrays/ | 🟢 Active | 2 | (arrays/) |
-| sorting/ | 🟢 Active | 5 | [(arrays/sorting/) |
-| searching/ | 🟢 Active | 2 | [(arrays/searching/) |
+| arrays/hashmap/ | ⚪ Empty | 0 | — |
+| arrays/searching/ | 🟢 Active | 2 | [View](arrays/searching/) |
+| arrays/sorting/ | ⚪ Empty | 0 | — |
+| arrays/two-pointers/ | 🟢 Active | 2 | [View](arrays/two-pointers/) |
 | strings/ | ⚪ Empty | 0 | — |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
@@ -22,12 +22,19 @@ Daily logic-building problems for Data Engineering interviews.
 
 | Topic | Solved |
 |-------|--------|
-| Hash Map | 4 |
-| Arrays | 2 |
-| Sorting | 2 |
-| Searching | 1 |
-| **Total** | **9** |
+| Hash Map | 0 |
+| Searching | 2 |
+| Sorting | 0 |
+| Two Pointers | 2 |
+| Strings | 0 |
+| Stacks & Queues | 0 |
+| Sliding Window | 0 |
+| Linked Lists | 0 |
+| Trees | 0 |
+| Graphs | 0 |
+| Dynamic Programming | 0 |
+| Backtracking | 0 |
+| **Total** | **4** |
 
 ## File Naming Convention
-`XX_problem-name.py`
-
+`XX_problem-name.py` (e.g., `01_floor-and-ceil.py`)
