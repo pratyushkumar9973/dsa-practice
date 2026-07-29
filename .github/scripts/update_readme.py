@@ -1,16 +1,33 @@
 import os
 
 def count_files(folder_path):
+    """Count .py files in a folder"""
+    # Debug print
+    print(f"DEBUG: Checking folder: {folder_path}")
+    
     if not os.path.exists(folder_path):
+        print(f"DEBUG: Folder NOT FOUND: {folder_path}")
         return 0
-    return len([f for f in os.listdir(folder_path) if f.endswith('.py')])
+    
+    try:
+        files = os.listdir(folder_path)
+        print(f"DEBUG: Files in {folder_path}: {files}")
+        
+        py_files = [f for f in files if f.endswith('.py')]
+        print(f"DEBUG: .py files: {py_files}, Count: {len(py_files)}")
+        
+        return len(py_files)
+        
+    except Exception as e:
+        print(f"DEBUG: Error: {e}")
+        return 0
 
 def generate_readme():
     topics = [
         ('arrays/hashmap', 'Hash Map'),
         ('arrays/searching', 'Searching'),
         ('arrays/sorting', 'Sorting'),
-        ('arrays/two-pointers', 'Two Pointers'),  # ← ADD THIS!
+        ('arrays/two-pointers', 'Two Pointers'),
         ('strings', 'Strings'),
         ('stacks-queues', 'Stacks & Queues'),
         ('sliding-window', 'Sliding Window'),
@@ -63,3 +80,4 @@ Daily logic-building problems for Data Engineering interviews.
 
 if __name__ == "__main__":
     generate_readme()
+
