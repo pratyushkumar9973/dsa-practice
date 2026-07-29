@@ -1,17 +1,16 @@
 import os
 
 def count_files(folder_path):
-    """Count .py files in a folder"""
     if not os.path.exists(folder_path):
         return 0
     return len([f for f in os.listdir(folder_path) if f.endswith('.py')])
 
 def generate_readme():
     topics = [
-        ('arrays/two-pointers', 'Two Pointers'),
-        ('arrays/searching', 'Searching'),
         ('arrays/hashmap', 'Hash Map'),
+        ('arrays/searching', 'Searching'),
         ('arrays/sorting', 'Sorting'),
+        ('arrays/two-pointers', 'Two Pointers'),  # ← ADD THIS!
         ('strings', 'Strings'),
         ('stacks-queues', 'Stacks & Queues'),
         ('sliding-window', 'Sliding Window'),
