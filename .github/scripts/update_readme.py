@@ -2,19 +2,32 @@ import os
 
 def count_files(folder_path):
     """Count .py files in a folder"""
-    # Debug print
-    print(f"DEBUG: Checking folder: {folder_path}")
+    # ABSOLUTE PATH from repo root
+    repo_root = os.environ.get('GITHUB_WORKSPACE', '.')
+    full_path = os.path.join(repo_root, folder_path)
     
-    if not os.path.exists(folder_path):
-        print(f"DEBUG: Folder NOT FOUND: {folder_path}")
-        return 0
+    print(f"DEBUG: Checking: {full_path}")
+    print(f"DEBUG: Exists? {os.path.exists(full_path)}")
+    
+    if not os.path.exists(full_path):
+        # Try without arrays/ prefix
+        alt_path = os.path.join(repo_root, folder_path.replace('arrays/', ''))
+        print(f"DEBUG: Trying alt: {alt_path}")
+        print(f"DEBUG: Alt exists? {os.path.exists(alt_path)}")
+        
+        if os.path.exists(alt_path):
+            full_path = alt_path
+        else:
+            print(f"DEBUG: Returning 0 for {folder_path}")
+            return 0
     
     try:
-        files = os.listdir(folder_path)
-        print(f"DEBUG: Files in {folder_path}: {files}")
+        files = os.listdir(full_path)
+        print(f"DEBUG: All files: {files}")
         
         py_files = [f for f in files if f.endswith('.py')]
-        print(f"DEBUG: .py files: {py_files}, Count: {len(py_files)}")
+        print(f"DEBUG: .py files: {py_files}")
+        print(f"DEBUG: Count: {len(py_files)}")
         
         return len(py_files)
         
@@ -76,7 +89,7 @@ Daily logic-building problems for Data Engineering interviews.
     with open('README.md', 'w') as f:
         f.write(readme)
     
-    print(f"README updated! Total problems: {total}")
+    print(f"\nFINAL: Total problems: {total}")
 
 if __name__ == "__main__":
     generate_readme()
