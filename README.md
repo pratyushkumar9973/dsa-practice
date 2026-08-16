@@ -8,7 +8,7 @@ Daily logic-building problems for Data Engineering interviews.
 | arrays/hashmap/ | 🟢 Active | 9 | [View](arrays/hashmap/) |
 | arrays/searching/ | 🟢 Active | 2 | [View](arrays/searching/) |
 | arrays/sorting/ | 🟢 Active | 5 | [View](arrays/sorting/) |
-| arrays/two-pointers/ | 🟢 Active | 4 | [View](arrays/two-pointers/) |
+| arrays/two-pointers/ | 🟢 Active | 5 | [View](arrays/two-pointers/) |
 | strings/ | ⚪ Empty | 0 | — |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
@@ -25,7 +25,7 @@ Daily logic-building problems for Data Engineering interviews.
 | Hash Map | 9 |
 | Searching | 2 |
 | Sorting | 5 |
-| Two Pointers | 4 |
+| Two Pointers | 5 |
 | Strings | 0 |
 | Stacks & Queues | 0 |
 | Sliding Window | 0 |
@@ -34,7 +34,7 @@ Daily logic-building problems for Data Engineering interviews.
 | Graphs | 0 |
 | Dynamic Programming | 0 |
 | Backtracking | 0 |
-| **Total** | **20** |
+| **Total** | **21** |
 
 ## File Naming Convention
 `XX_problem-name.py` (e.g., `01_floor-and-ceil.py`)
