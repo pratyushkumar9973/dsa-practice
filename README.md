@@ -9,7 +9,7 @@ Daily logic-building problems for Data Engineering interviews.
 | arrays/searching/ | 🟢 Active | 2 | [View](arrays/searching/) |
 | arrays/sorting/ | 🟢 Active | 5 | [View](arrays/sorting/) |
 | arrays/two-pointers/ | 🟢 Active | 5 | [View](arrays/two-pointers/) |
-| strings/ | ⚪ Empty | 0 | — |
+| strings/ | 🟢 Active | 1 | [View](strings/) |
 | stacks-queues/ | ⚪ Empty | 0 | — |
 | sliding-window/ | ⚪ Empty | 0 | — |
 | linked-lists/ | ⚪ Empty | 0 | — |
@@ -26,7 +26,7 @@ Daily logic-building problems for Data Engineering interviews.
 | Searching | 2 |
 | Sorting | 5 |
 | Two Pointers | 5 |
-| Strings | 0 |
+| Strings | 1 |
 | Stacks & Queues | 0 |
 | Sliding Window | 0 |
 | Linked Lists | 0 |
@@ -34,7 +34,7 @@ Daily logic-building problems for Data Engineering interviews.
 | Graphs | 0 |
 | Dynamic Programming | 0 |
 | Backtracking | 0 |
-| **Total** | **21** |
+| **Total** | **22** |
 
 ## File Naming Convention
 `XX_problem-name.py` (e.g., `01_floor-and-ceil.py`)
