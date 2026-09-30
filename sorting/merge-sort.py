@@ -32,6 +32,6 @@ def merge(left, right):
 
 
 
-arr = [38, 27, 43, 3, 9, 82, 10]
+arr = [38, 27, 43, 3, 9, 82, 10, 10, 20]
 print(merge_sort(arr))
 
